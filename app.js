@@ -10,7 +10,7 @@ var User  = require("./views/user");
 
 //APP CONFIG
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/restful_blog_app', {
+mongoose.connect('mongodb://127.0.0.1:27017/restful_blog_app', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false
